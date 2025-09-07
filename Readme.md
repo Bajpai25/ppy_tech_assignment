@@ -1,3 +1,7 @@
+Attachments :
+<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/b03c5a99-e31f-4831-ab1a-5b9475844500" />
+
+
 # WealthElite Dashboard
 
 A comprehensive wealth management dashboard built with Next.js, featuring real-time financial tracking, PDF report generation, and cross-platform mobile app capabilities.
