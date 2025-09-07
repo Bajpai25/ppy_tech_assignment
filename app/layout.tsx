@@ -11,7 +11,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "WealthElite Dashboard",
   description: "Financial Dashboard for Wealth Management",
-  generator: "v0.app",
+  generator: "ppy.app",
 }
 
 export default function RootLayout({

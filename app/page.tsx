@@ -1,3 +1,5 @@
+"use client" // Added use client directive to enable event handler passing
+
 import { Header } from "@/components/header"
 import { NavigationBar } from "@/components/navigation-bar"
 import { MainCards } from "@/components/main-cards"
@@ -7,10 +9,9 @@ import { ChartsSection } from "@/components/charts-section"
 
 export default function Dashboard() {
   const handleFilterChange = async (days: number) => {
-    console.log(`[v0] Fetching data for ${days} days`)
-    // Simulate API call - replace with actual data fetching logic
+    console.log(` Fetching data for ${days} days`)
     await new Promise((resolve) => setTimeout(resolve, 800))
-    console.log(`[v0] Data fetched successfully for ${days} days`)
+    console.log(` Data fetched successfully for ${days} days`)
   }
 
   return (
