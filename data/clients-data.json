@@ -1,0 +1,17 @@
+{
+  "clients": {
+    "total": 4427,
+    "breakdown": [
+      { "name": "Inactive", "value": 3824, "color": "#DC2626" },
+      { "name": "Inactive", "value": 541, "color": "#F97316" },
+      { "name": "New", "value": 60, "color": "#16A34A" },
+      { "name": "Other", "value": 2, "color": "#059669" }
+    ],
+    "legend": [
+      { "label": "Online", "color": "#F97316" },
+      { "label": "New", "color": "#16A34A" },
+      { "label": "Active", "color": "#DC2626" },
+      { "label": "InActive", "color": "#EF4444" }
+    ]
+  }
+}

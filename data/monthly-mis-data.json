@@ -1,0 +1,18 @@
+{
+  "monthlyMis": {
+    "timeRange": "6 months",
+    "data": [
+      { "month": "Jan", "series1": 0.2, "series2": -0.1, "series3": 0.15 },
+      { "month": "Feb", "series1": 0.3, "series2": 0.05, "series3": 0.25 },
+      { "month": "Mar", "series1": 0.25, "series2": 0.15, "series3": 0.35 },
+      { "month": "Apr", "series1": 0.4, "series2": 0.25, "series3": 0.45 },
+      { "month": "May", "series1": 0.35, "series2": 0.3, "series3": 0.5 },
+      { "month": "Jun", "series1": 0.2, "series2": 0.2, "series3": 0.4 }
+    ],
+    "series": [
+      { "name": "Series 1", "color": "#3B82F6" },
+      { "name": "Series 2", "color": "#EF4444" },
+      { "name": "Series 3", "color": "#10B981" }
+    ]
+  }
+}

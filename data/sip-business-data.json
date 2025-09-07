@@ -1,0 +1,17 @@
+{
+  "sipBusiness": {
+    "months": ["Mar", "Apr", "May", "Jun"],
+    "data": [
+      { "month": "Mar", "amount": 1.6, "transactions": 95 },
+      { "month": "Apr", "amount": 0.8, "transactions": 105 },
+      { "month": "May", "amount": 1.4, "transactions": 115 },
+      { "month": "Jun", "amount": 1.5, "transactions": 110 }
+    ],
+    "trendLine": [
+      { "month": "Mar", "trend": 2.0 },
+      { "month": "Apr", "trend": 1.2 },
+      { "month": "May", "trend": 0.6 },
+      { "month": "Jun", "trend": 0.4 }
+    ]
+  }
+}

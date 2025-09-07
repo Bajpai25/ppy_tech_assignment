@@ -1,0 +1,58 @@
+{
+  "mainCards": {
+    "aum": {
+      "current": 12.19,
+      "unit": "Cr",
+      "momChange": 0.77,
+      "trend": "up"
+    },
+    "sip": {
+      "current": 1.39,
+      "unit": "Lakh",
+      "momChange": 0,
+      "trend": "neutral"
+    }
+  },
+  "stats": [
+    {
+      "id": "purchases",
+      "title": "Purchases",
+      "value": 0,
+      "amount": "0.00 INR",
+      "icon": "shopping-bag",
+      "color": "red"
+    },
+    {
+      "id": "redemptions",
+      "title": "Redemptions",
+      "value": 0,
+      "amount": "0.00 INR",
+      "icon": "gift",
+      "color": "orange"
+    },
+    {
+      "id": "rejected-transactions",
+      "title": "Rejected Transactions",
+      "value": 0,
+      "amount": "0.00 INR",
+      "icon": "x-circle",
+      "color": "gray"
+    },
+    {
+      "id": "sip-rejections",
+      "title": "SIP Rejections",
+      "value": 0,
+      "amount": "0.00 INR",
+      "icon": "shield-x",
+      "color": "red"
+    },
+    {
+      "id": "new-sip",
+      "title": "New SIP",
+      "value": 0,
+      "amount": "0.00 INR",
+      "icon": "trending-up",
+      "color": "green"
+    }
+  ]
+}
