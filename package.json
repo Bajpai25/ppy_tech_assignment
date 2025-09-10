@@ -7,10 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cap:build": "npm run build && npx cap sync",
+    "clean": "rimraf .next out node_modules/.cache .capacitor",
+    "build:clean": "npm run clean && npm run build",
+    "cap:build": "npm run build:clean && npx cap sync && npx cap copy",
     "cap:ios": "npm run cap:build && npx cap open ios",
     "cap:android": "npm run cap:build && npx cap open android",
-    "cap:sync": "npx cap sync"
+    "cap:sync": "npx cap sync",
+    "cap:copy": "npx cap copy",
+    "build:mobile": "npm run build:clean && npx cap sync ",
+    "build:apk": "npm run build:mobile && cd android && ./gradlew assembleDebug"
   },
   "dependencies": {
     "@capacitor/android": "^6.0.0",
@@ -82,6 +87,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8.5",
+    "rimraf": "^5.0.0",
     "tailwindcss": "^4.1.9",
     "tw-animate-css": "1.3.3",
     "typescript": "^5"

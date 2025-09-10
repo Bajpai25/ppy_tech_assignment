@@ -5,8 +5,7 @@ import { Download } from "lucide-react"
 
 export function PDFGenerator() {
   const generatePDF = async () => {
-    // This would integrate with a PDF generation library like jsPDF or Puppeteer
-    // For now, we'll create a simple implementation
+    // This would integrate with a PDF generation library like jsPDF 
     const { jsPDF } = await import("jspdf")
     const doc = new jsPDF()
 

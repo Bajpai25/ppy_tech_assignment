@@ -12,6 +12,11 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   distDir: 'out',
+  basePath: '',
+  assetPrefix: '',
+  experimental: {
+    esmExternals: false,
+  },
 }
 
 export default nextConfig
